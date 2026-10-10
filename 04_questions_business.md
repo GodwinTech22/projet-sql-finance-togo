@@ -17,9 +17,6 @@
 ### Q6 — Dans quelles villes la banque a-t-elle au moins 2 clients ?
 
 ### Q7 — Quel est le montant total des dépôts par canal (Agence, Mobile Money, Application mobile…) ?
-Tables : `transactions` · Outils : `SUM`, `WHERE`, `GROUP BY`, `ORDER BY`
-*Filtre d'abord sur `type_transaction = 'Dépôt'`.*
-
 ### Q8 — Quels sont les 3 plus gros retraits effectués ?
 
 ### Q9 — Pour chaque statut de prêt : combien de prêts, quel montant total accordé et quel taux moyen ? Ne garde que les statuts ayant au moins 3 prêts.
@@ -27,12 +24,3 @@ Tables : `transactions` · Outils : `SUM`, `WHERE`, `GROUP BY`, `ORDER BY`
 ### Q10 — Parmi les prêts de plus de 2 000 000 FCFA et de plus de 24 mois, quels sont les 3 avec le taux d'intérêt le plus bas ?
 
 
-## Fichier de réponses à compléter
-
-```sql
--- Q1 : ...
-SELECT ...;
-
--- Q2 : ...
-SELECT ...;
-```
